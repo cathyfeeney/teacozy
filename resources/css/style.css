@@ -1,1 +1,22 @@
-.header {background-color: black;}
+body {background-color: black;
+font-family: helvetica;
+color : seashell;
+font-size: 22px;
+opacity: 09;
+}
+.header
+ {display:flex;
+   align-items: center;
+   justify-content:  space-between;
+   height: 69px;
+   width:auto;
+   border-bottom: solid 1px seashell;
+ }
+ .header img {
+   height : 50px;
+   padding-left: 10px;
+ }
+ .header a {
+   padding-left: 20px;
+   color: seashell;
+ }
